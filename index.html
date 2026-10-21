@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080b14">
+  <meta name="description" content="NovaWeb crée des sites web modernes, rapides et adaptés aux mobiles pour les entreprises, commerces et indépendants.">
+  <title>NovaWeb — Votre activité mérite d'être visible</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <div class="scroll-progress" aria-hidden="true"><span id="scrollProgress"></span></div>
+  <div class="ambient ambient-one" aria-hidden="true"></div>
+  <div class="ambient ambient-two" aria-hidden="true"></div>
+
+  <header class="site-header" id="top">
+    <nav class="nav container" aria-label="Navigation principale">
+      <a class="brand" href="#top" aria-label="NovaWeb, accueil">
+        <span class="brand-mark"><span>N</span></span>
+        <span class="brand-name">NOVA<span>WEB</span></span>
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Ouvrir le menu" aria-expanded="false">
+        <span></span><span></span>
+      </button>
+      <div class="nav-links" id="navLinks">
+        <a href="#services">Services</a>
+        <a href="#portfolio">Réalisations</a>
+        <a href="#methode">Méthode</a>
+        <a href="#faq">FAQ</a>
+        <a class="nav-cta" href="#contact">Parlons du projet <span>↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section container">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="status-dot"></span> STUDIO WEB · AU SERVICE DES PROS</div>
+        <h1>Votre activité mérite<br>un site qui <span class="gradient-text">se démarque.</span></h1>
+        <p class="hero-lead">Des sites web élégants, rapides et pensés pour transformer les visiteurs en futurs clients. Une présence en ligne à l’image de votre savoir-faire.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#contact">Construisons votre site <span>↗</span></a>
+          <a class="button button-quiet" href="#portfolio"><span class="play-icon">▶</span> Voir les concepts</a>
+        </div>
+        <div class="hero-proof">
+          <div class="avatar-stack" aria-hidden="true"><span>N</span><span>W</span><span>+</span></div>
+          <p><strong>Du sur-mesure, simplement.</strong><br><span>Un interlocuteur, un projet qui vous ressemble.</span></p>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal" aria-label="Aperçu illustratif d'un site web NovaWeb">
+        <div class="visual-glow"></div>
+        <div class="browser-window">
+          <div class="browser-top"><div class="browser-dots"><i></i><i></i><i></i></div><div class="browser-address">votre-entreprise.fr</div><span class="browser-lock">⌑</span></div>
+          <div class="mock-site">
+            <div class="mock-nav"><b>ATELIER<span>.</span></b><div><i></i><i></i><i></i></div><button aria-hidden="true">Nous contacter ↗</button></div>
+            <div class="mock-content">
+              <div class="mock-tag">L'EXIGENCE DU DÉTAIL</div>
+              <h3>Donnez vie à<br>vos idées.</h3>
+              <p>Un savoir-faire unique.<br>Une expérience à votre image.</p>
+              <span class="mock-button">Découvrir notre univers <b>↗</b></span>
+            </div>
+            <div class="mock-orb orb-a"></div><div class="mock-orb orb-b"></div>
+            <div class="mock-bottom"><span>01 / 03</span><div></div><span>SCROLL TO EXPLORE ↓</span></div>
+          </div>
+        </div>
+        <div class="floating-card card-speed"><span class="float-icon">✦</span><div><b>Design soigné</b><small>Chaque détail compte</small></div></div>
+        <div class="floating-card card-responsive"><span class="device-icon">▯</span><div><b>100 % responsive</b><small>Mobile · Tablette · PC</small></div></div>
+        <div class="hero-stamp"><span>NW</span><small>WEB<br>STUDIO</small></div>
+      </div>
+      <div class="hero-bottom-line"><span>DES IDÉES CLAIRES. UN WEB PLUS FORT.</span><span class="line"></span><span>FAIT POUR VOTRE ACTIVITÉ ↓</span></div>
+    </section>
+
+    <section class="ticker" aria-label="Nos engagements"><div class="ticker-track">
+      <span>DESIGN SUR-MESURE <b>✳</b></span><span>EXPÉRIENCE MOBILE <b>✳</b></span><span>VOTRE IMAGE DE MARQUE <b>✳</b></span><span>UNE PRÉSENCE EN LIGNE <b>✳</b></span>
+      <span>DESIGN SUR-MESURE <b>✳</b></span><span>EXPÉRIENCE MOBILE <b>✳</b></span><span>VOTRE IMAGE DE MARQUE <b>✳</b></span><span>UNE PRÉSENCE EN LIGNE <b>✳</b></span>
+    </div></section>
+
+    <section class="section services-section container" id="services">
+      <div class="section-heading reveal">
+        <div><div class="eyebrow">01 — CE QUE JE FAIS</div><h2>Votre métier est unique.<br><span class="muted">Votre site devrait l’être aussi.</span></h2></div>
+        <p>Une solution claire, adaptée à vos objectifs et à vos clients. Pas de formule compliquée : on construit ensemble ce qui vous est vraiment utile.</p>
+      </div>
+      <div class="service-grid">
+        <article class="service-card reveal"><div class="service-icon">✳</div><span class="service-number">01</span><h3>Site vitrine</h3><p>Présentez votre activité, vos services et votre différence avec une vitrine professionnelle qui inspire confiance.</p><a href="#contact" class="text-link">Parlons de votre site <span>↗</span></a><div class="card-orbit"></div></article>
+        <article class="service-card featured reveal"><div class="featured-label">L'ESSENTIEL</div><div class="service-icon">⌘</div><span class="service-number">02</span><h3>Design sur-mesure</h3><p>Une identité visuelle cohérente, une navigation simple et un design conçu pour votre univers et votre clientèle.</p><a href="#contact" class="text-link">Créons votre univers <span>↗</span></a><div class="card-orbit"></div></article>
+        <article class="service-card reveal"><div class="service-icon">↗</div><span class="service-number">03</span><h3>Optimisation mobile</h3><p>Un site agréable à consulter sur téléphone, tablette et ordinateur, pour rester accessible où que soient vos clients.</p><a href="#contact" class="text-link">Parlons de vos besoins <span>↗</span></a><div class="card-orbit"></div></article>
+      </div>
+    </section>
+
+    <section class="section portfolio-section" id="portfolio">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div><div class="eyebrow">02 — LE PORTFOLIO</div><h2>Des idées qui prennent<br><span class="gradient-text">forme.</span></h2></div>
+          <p>Quelques concepts pour illustrer les univers possibles. Chaque projet réel est imaginé en fonction de l’activité et des besoins du client.</p>
+        </div>
+        <div class="portfolio-toolbar reveal">
+          <div class="filter-list" role="group" aria-label="Filtrer les concepts">
+            <button class="filter-btn active" data-filter="all">Tout voir <span>04</span></button>
+            <button class="filter-btn" data-filter="food">Restaurant</button>
+            <button class="filter-btn" data-filter="local">Commerce</button>
+            <button class="filter-btn" data-filter="service">Services</button>
+          </div>
+          <span class="concept-note">CONCEPTS DE DÉMONSTRATION</span>
+        </div>
+        <div class="portfolio-grid">
+          <article class="project-card project-large reveal" data-category="food" tabindex="0" role="button" aria-label="Voir le concept Maison Sésame">
+            <div class="project-art restaurant-art site-preview">
+              <div class="browser-chrome"><i></i><i></i><i></i><span>maisonsesame.fr</span></div>
+              <div class="preview-site preview-restaurant"><div class="preview-nav"><b>🌿 Maison Sésame</b><span>Accueil　 La carte　 À propos　 Galerie</span><em>Réserver une table</em></div>
+              <div class="preview-hero"><small>UNE CUISINE AUTHENTIQUE</small><h4>La cuisine qui<br>rassemble</h4><p>Des produits frais, une cuisine méditerranéenne<br>inspirée et une ambiance chaleureuse.</p><button>Découvrir la carte　↗</button></div>
+              <div class="preview-lower"><b>Nos coups de cœur</b><div class="preview-tiles"><span>🥗<small>Tartare de thon</small></span><span>🍝<small>Risotto crémeux</small></span><span>🐟<small>Filet de bar</small></span></div></div></div></div><div class="project-info"><div><span class="project-type">RESTAURATION</span><h3>Maison Sésame</h3></div><button class="project-open" aria-label="Détails du concept">↗</button></div>
+          </article>
+          <article class="project-card reveal" data-category="local" tabindex="0" role="button" aria-label="Voir le concept Atelier 17">
+            <div class="project-art barber-art site-preview">
+              <div class="browser-chrome"><i></i><i></i><i></i><span>atelier17.fr</span></div>
+              <div class="preview-site preview-barber"><div class="preview-nav"><b>ATELIER 17<small>BARBER SHOP</small></b><span>Accueil　 Nos services　 À propos　 Galerie</span><em>Réserver mon créneau</em></div>
+              <div class="preview-hero"><small>BARBERSHOP PREMIUM</small><h4>Votre style.<br>Notre signature.</h4><p>Plus qu’une coupe, une expérience.</p><button>Réserver mon créneau　↗</button></div>
+              <div class="preview-lower"><b>Nos services</b><div class="preview-tiles"><span>✂<small>Coupe homme</small></span><span>♧<small>Taille de barbe</small></span><span>◈<small>Rituel soin</small></span></div></div></div></div><div class="project-info"><div><span class="project-type">COMMERCE LOCAL</span><h3>Atelier 17</h3></div><button class="project-open" aria-label="Détails du concept">↗</button></div>
+          </article>
+          <article class="project-card reveal" data-category="service" tabindex="0" role="button" aria-label="Voir le concept Forma Studio">
+            <div class="project-art wellness-art site-preview">
+              <div class="browser-chrome"><i></i><i></i><i></i><span>formastudio.fr</span></div>
+              <div class="preview-site preview-wellness"><div class="preview-nav"><b>♧ Forma Studio</b><span>Accueil　 Nos cours　 À propos　 Témoignages</span><em>Réserver un cours</em></div>
+              <div class="preview-hero"><small>YOGA & BIEN-ÊTRE</small><h4>Retrouvez votre<br>équilibre</h4><p>Des cours adaptés à tous les niveaux,<br>pour le corps et l’esprit.</p><button>Découvrir les cours　→</button></div>
+              <div class="preview-lower"><b>Nos cours</b><div class="preview-tiles"><span>🧘<small>Yoga</small></span><span>◉<small>Pilates</small></span><span>☼<small>Méditation</small></span></div></div></div></div><div class="project-info"><div><span class="project-type">BIEN-ÊTRE</span><h3>Forma Studio</h3></div><button class="project-open" aria-label="Détails du concept">↗</button></div>
+          </article>
+          <article class="project-card reveal" data-category="service" tabindex="0" role="button" aria-label="Voir le concept Bâtir & Co">
+            <div class="project-art build-art site-preview">
+              <div class="browser-chrome"><i></i><i></i><i></i><span>batir-co.fr</span></div>
+              <div class="preview-site preview-build"><div class="preview-nav"><b>🏠 Bâtir & Co.</b><span>Accueil　 Nos services　 Réalisations　 À propos</span><em>Demander un devis</em></div>
+              <div class="preview-hero"><small>CONSTRUCTION & RÉNOVATION</small><h4>Construire durablement.<br>Vivre pleinement.</h4><p>Des projets sur-mesure, pensés pour votre confort.</p><button>Parler de votre projet　→</button></div>
+              <div class="preview-lower"><b>Nos services</b><div class="preview-tiles"><span>⌂<small>Construction</small></span><span>▧<small>Rénovation</small></span><span>✧<small>Aménagement</small></span></div></div></div></div><div class="project-info"><div><span class="project-type">ARTISANAT</span><h3>Bâtir & Co.</h3></div><button class="project-open" aria-label="Détails du concept">↗</button></div>
+          </article>
+        </div>
+        <p class="portfolio-disclaimer">Les visuels ci-dessus sont des concepts fictifs créés pour présenter des pistes de design. Ils ne représentent pas des réalisations livrées à des clients.</p>
+      </div>
+    </section>
+
+    <section class="section process-section container" id="methode">
+      <div class="section-heading reveal"><div><div class="eyebrow">03 — LA MÉTHODE</div><h2>Simple du premier<br><span class="muted">message à la mise en ligne.</span></h2></div><p>Un processus transparent pour avancer sereinement, avec des échanges clairs à chaque étape.</p></div>
+      <div class="process-list">
+        <article class="process-item reveal"><span class="process-count">01</span><div class="process-symbol">↗</div><div><h3>On échange</h3><p>Vous me présentez votre activité, vos objectifs et vos envies. On définit ensemble le besoin.</p></div><span class="process-arrow">↗</span></article>
+        <article class="process-item reveal"><span class="process-count">02</span><div class="process-symbol">◈</div><div><h3>Je conçois</h3><p>Je prépare une proposition visuelle cohérente avec votre activité et votre identité.</p></div><span class="process-arrow">↗</span></article>
+        <article class="process-item reveal"><span class="process-count">03</span><div class="process-symbol">⌘</div><div><h3>On ajuste</h3><p>Nous échangeons sur le contenu et les détails pour obtenir un résultat qui vous correspond.</p></div><span class="process-arrow">↗</span></article>
+        <article class="process-item reveal"><span class="process-count">04</span><div class="process-symbol">✦</div><div><h3>Votre site prend vie</h3><p>Après validation, on prépare la mise en ligne et les derniers contrôles selon le périmètre convenu.</p></div><span class="process-arrow">↗</span></article>
+      </div>
+    </section>
+
+    <section class="statement-section">
+      <div class="container statement-inner reveal"><div class="statement-star">✳</div><p>Votre prochain client<br>est peut-être déjà <span>en train de vous chercher.</span></p><a href="#contact" class="button button-light">Faisons connaissance <span>↗</span></a></div>
+    </section>
+
+    <section class="section faq-section container" id="faq">
+      <div class="section-heading reveal"><div><div class="eyebrow">04 — QUESTIONS FRÉQUENTES</div><h2>Les réponses, <span class="muted">sans détour.</span></h2></div><p>Une question qui n’est pas dans la liste ? Écrivez-moi, je vous répondrai avec plaisir.</p></div>
+      <div class="faq-list">
+        <details class="faq-item reveal"><summary>Pour quels types d’activités créez-vous des sites ? <span>+</span></summary><p>Je peux concevoir des sites vitrines pour des commerces, artisans, indépendants, restaurants et petites entreprises. Le projet est adapté à votre activité et à vos objectifs.</p></details>
+        <details class="faq-item reveal"><summary>Combien coûte la création d’un site ? <span>+</span></summary><p>Le tarif dépend du nombre de pages, des fonctionnalités et du contenu à intégrer. Contactez-moi pour discuter de votre besoin et obtenir une proposition adaptée, sans engagement.</p></details>
+        <details class="faq-item reveal"><summary>Le site sera-t-il adapté aux téléphones ? <span>+</span></summary><p>Oui, l’objectif est de proposer une expérience responsive, pensée pour les téléphones, les tablettes et les ordinateurs.</p></details>
+        <details class="faq-item reveal"><summary>Est-ce que je peux demander des modifications ? <span>+</span></summary><p>Bien sûr. Les ajustements et leur nombre sont définis ensemble au début du projet pour que chacun sache ce qui est inclus.</p></details>
+      </div>
+    </section>
+
+    <section class="section contact-section container" id="contact">
+      <div class="contact-panel reveal">
+        <div class="contact-copy"><div class="eyebrow"><span class="status-dot"></span> 05 — À VOUS DE JOUER</div><h2>Et si on créait<br>quelque chose de <span class="gradient-text">fort ?</span></h2><p>Parlez-moi de votre activité et de vos idées. Le premier échange sert simplement à voir ce qui serait utile pour vous.</p><div class="contact-mini"><span class="contact-mini-icon">✉</span><div><small>UN PROJET EN TÊTE ?</small><b>Écrivez-moi quelques lignes.</b></div></div></div>
+        <form class="contact-form" id="contactForm">
+          <div class="form-row"><label for="name">Votre nom</label><input id="name" name="name" type="text" placeholder="Jean Dupont" required></div>
+          <div class="form-row"><label for="email">Votre e-mail</label><input id="email" name="email" type="email" placeholder="jean@entreprise.fr" required></div>
+          <div class="form-row"><label for="activity">Votre activité <span>(facultatif)</span></label><input id="activity" name="activity" type="text" placeholder="Restaurant, artisan, commerce…"></div>
+          <div class="form-row"><label for="message">Parlez-moi de votre projet</label><textarea id="message" name="message" rows="3" placeholder="J’aimerais créer un site pour…" required></textarea></div>
+          <button class="button button-primary form-submit" type="submit">Préparer mon message <span>↗</span></button>
+          <p class="form-note">Le formulaire ouvre votre application e-mail : aucun message n’est envoyé automatiquement depuis ce site.</p>
+          <p class="form-feedback" id="formFeedback" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-main"><a class="brand" href="#top"><span class="brand-mark"><span>N</span></span><span class="brand-name">NOVA<span>WEB</span></span></a><p>Votre activité mérite d’être visible.</p><a class="back-top" href="#top">Retour en haut ↑</a></div>
+    <div class="container footer-bottom"><span>© <span id="year"></span> NovaWeb. Tous droits réservés.</span><span>Imaginé pour faire grandir votre présence en ligne.</span></div>
+  </footer>
+
+  <dialog class="project-dialog" id="projectDialog">
+    <button class="dialog-close" id="dialogClose" aria-label="Fermer">×</button>
+    <div class="dialog-kicker">CONCEPT DE DÉMONSTRATION</div>
+    <h2 id="dialogTitle">Concept</h2>
+    <p id="dialogText">Un exemple de direction artistique pour une activité.</p>
+    <a href="#contact" class="button button-primary" id="dialogContact">Créer un projet similaire <span>↗</span></a>
+  </dialog>
+</body>
+</html>
